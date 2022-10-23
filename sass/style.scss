@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container800 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.container940 {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+@import 'blocks/background';
+@import 'blocks/header';
+@import 'blocks/cards';
+@import 'blocks/future';

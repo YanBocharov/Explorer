@@ -1,0 +1,125 @@
+.cards {
+    height: 1750px;
+    margin-top: 60px;
+    .card {
+        position: relative;
+        overflow: hidden;
+        &__main {
+            position: relative;
+            height: 330px;
+            &-img {
+                img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 330px;
+                    width: 100%;
+                    z-index: -1;
+                }
+            }
+        }
+        &__descr {
+            padding: 25px 60px 35px 60px;
+            background-color: #fff;
+            height: 180px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 25px;
+            color: #333333;
+        }
+        &__link {
+            display: block;
+            text-decoration: none;
+            margin-top: 10px;
+            color: #8D4FDB;
+            font-weight: 400;
+            font-size: 17px;
+        }
+        &__specification {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 2;
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 30px;
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 8px;
+            line-height: 24px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            padding: 0 10px;
+        }
+        &__human {
+            display: flex;
+            z-index: 2;
+            &-img {
+                margin-right: 15px;
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+            &-publication {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 19px;
+            }
+        }
+        &__value {
+            position: absolute;
+            bottom: 40px;
+            left: 60px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+        &__title {
+            font-size: 28px;
+            line-height: 35px;
+            max-width: 500px;
+            margin-top: 20px;
+        }
+        &__footer {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            height: 210px;
+            background-color: #F1F1F1;
+            &-text {
+                text-align: center;
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 36px;
+                color: #333333;
+            }
+            &-btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 10px;
+                font-weight: 400;
+                font-family: 'Montserrat';
+                background: #8D4FDB;
+                border-radius: 3px;
+                width: 180px;
+                height: 45px;
+                color: #fff;
+            }
+        }
+    }
+}
