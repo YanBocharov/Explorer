@@ -1,0 +1,26 @@
+.footer {
+    background-color: #000;
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    color: #8B8B8B;
+    &__line1 {
+        padding-top: 55px;
+        span {
+            a {
+                text-decoration: none;
+                color: #8D4FDB;
+            }
+        }
+    }
+    &__line2{
+        padding: 10px 0 45px 0;
+        span {
+            a {
+                color: #8D4FDB;
+                text-decoration: none;
+            }
+        }
+    }
+}

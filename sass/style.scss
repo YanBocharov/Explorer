@@ -6,6 +6,9 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
+body {
+    margin: 0 auto;
+}
 
 .container800 {
     max-width: 800px;
@@ -20,3 +23,5 @@
 @import 'blocks/header';
 @import 'blocks/cards';
 @import 'blocks/future';
+@import 'blocks/footer';
+
